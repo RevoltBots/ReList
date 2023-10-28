@@ -3,7 +3,7 @@ const express = require("express"),
   https = require("https"),
   SERVER_PORT = 2932,
   app = express(),
-  x = "https://revbots.kyra.tk/",
+  x = "https://revoltbots.org/api/v2",
   limiter = rateLimit({
     windowMs: 1000,
     max: 30,
