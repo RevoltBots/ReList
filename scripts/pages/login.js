@@ -7,7 +7,7 @@ function loginUser() {
       form.innerHTML = "Error: " + data.message;
     }
     form.innerHTML = `<p>
-          1) Join <a href="https://app.revolt.chat/invite/01GVK81S6KZJF5E0EVDGD75AHH">this server</a> <br><br>
+          1) Join <a href="https://app.revolt.chat/invite/01GQ14WC58C8AXCWNJQBFDZNT3">this server</a> <br><br>
               2) Type <code onclick='navigator.clipboard.writeText("r!login ${data.token}")'>r!login ${data.token}</code> in any channel.
               <br><br><button class="s1" onclick="checkLogin('${data.token}')">Check</button>
               </p>`;

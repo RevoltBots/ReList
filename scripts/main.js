@@ -11,7 +11,7 @@ navElement.innerHTML = `
 <li class="nav-menu"><button onclick="navDropdownToggle('.nav-dropdown')">Menu</button></li>
 <div class="nav-dropdown">
 <li><button onclick="accessibilityModal()">Accessibility</button></li>
-<li><a href="https://app.revolt.chat/invite/01GVK81S6KZJF5E0EVDGD75AHH" target="_blank"><button>Revolt Server</button></a></li>
+<li><a href="https://app.revolt.chat/invite/01GQ14WC58C8AXCWNJQBFDZNT3" target="_blank"><button>Revolt Server</button></a></li>
 <li><a href="./api.html"><button>API</button></a></li>
 <li><a href="./submit.html"><button>Submit bot</button></a></li>
 <li><a href="https://patreon.com/axorax"><button>Donate</button></a></li>
@@ -149,7 +149,7 @@ function vote(id, name) {
         Vote for ${name}
         </div>
         <div class="form">
-        Type <code onclick='navigator.clipboard.writeText("r!vote <@${id}>")'>r!vote <@${id}></code> <br> in <a href="https://app.revolt.chat/invite/01GVK81S6KZJF5E0EVDGD75AHH" target="_blank">this server!</a>
+        Type <code onclick='navigator.clipboard.writeText("r!vote <@${id}>")'>r!vote <@${id}></code> <br> in <a href="https://app.revolt.chat/invite/01GQ14WC58C8AXCWNJQBFDZNT3" target="_blank">this server!</a>
         <div class="center-text">or</div>
         <input type="text" class="vote-id s1" placeholder="Your Revolt ID">
         <button class="vote-confirm">Vote</button><br><br>
@@ -167,7 +167,7 @@ function vote(id, name) {
                   ).innerHTML = `Error: ${data.message}<br><button onclick="this.parentNode.parentNode.parentNode.remove()">Close</button>`;
               } else {
                   document.querySelector(`${tag} .form`).innerHTML = `
-1) Join <a href="https://app.revolt.chat/invite/01GVK81S6KZJF5E0EVDGD75AHH">this server</a> <br><br>
+1) Join <a href="https://app.revolt.chat/invite/01GQ14WC58C8AXCWNJQBFDZNT3">this server</a> <br><br>
 2) Type <code onclick='navigator.clipboard.writeText("r!vote ${data.token}")'>r!vote ${data.token}</code> in any channel.
 <br><br><button onclick="this.parentNode.parentNode.parentNode.remove()">Done</button>`;
               }
