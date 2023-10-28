@@ -200,7 +200,7 @@ function makeBotCard(data, bot, src = true) {
       <div class="btn-group">
           <a href="${
             window.location.origin.includes("github.io")
-              ? "https://get.revoltbots.org"
+              ? "https://revoltbots.github.io/ReList"
               : window.location.origin
           }/bot?id=${bot}"><button class="view">View</button></a>
           <button class="vote" onclick="vote('${bot}', '${

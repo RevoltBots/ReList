@@ -20,7 +20,7 @@ api.run(`botlist/${id}`, (data) => {
 
   document.querySelector(".bot-info-invite").href = `${
     window.location.origin.includes("github.io")
-      ? "https://get.revoltbots.org"
+      ? "https://revoltbots.github.io/ReList"
       : window.location.origin
   }/bot?id=${id}`;
 
